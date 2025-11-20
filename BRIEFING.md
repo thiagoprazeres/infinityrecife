@@ -5,17 +5,19 @@ Construtora: Moura Dubeux
 Localização: Av. Boa Viagem, no terreno do antigo Hotel Gran Mercure
 
 # Paleta de cores
-- Principal: #efeadb (Casca de ovo)
-- Acento: #2e2e2e (Grafite)
-- Destaque: #b92028 (Vermelho tijolo)
+
+- Primária: #efeadb (Casca de ovo)
+- Texto: #292b2a (Grafite)
+- Secundária: #b92028 (Vermelho tijolo)
 
 # Tecnologias
+
 - Angular 21
 - DaisyUI 5
 - GSAP
 
-
 # Galeria de fotos
+
 - Fachada: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/24_MOU-DUB_GRA-MER_FACHADA-CAM1_R02.webp
 - Fachada: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/25_MOU-DUB_GRA-MER_FACHADA-CAM2_R02.webp
 - Fachada: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/26_MOU-DUB_GRA-MER_FACHADA_CAM3_R03.webp
@@ -30,16 +32,17 @@ Localização: Av. Boa Viagem, no terreno do antigo Hotel Gran Mercure
 - Spa: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/18_MOU-DUB_GRA-MER_SPA_R01.webp
 - Academia: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/17_MOU-DUB_GRA-MER_ACADEMIA_R02.webp
 - Living apartamento 75 m²: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/01_MOU-DUB_GRA-MER_APT-TIPO-T01-75M-LIVING_R03.webp
-Living apartamento 43 m²: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/- 03_MOU-DUB_GRA-MER_APT-TIPO-T13-41M-T17-36M-LIVING_R04.webp
+  Living apartamento 43 m²: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/- 03_MOU-DUB_GRA-MER_APT-TIPO-T13-41M-T17-36M-LIVING_R04.webp
 - Living apartamento 27 m²: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/04_MOU-DUB_GRA-MER_APT-TIPO-T03-27M-LIVING_R02.webp
-Living apartamento 97 m²: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/07_MOU-DUB_GRA-MER_APT-PAV16-T01-T02-97M-LIVING_R02.- webp
+  Living apartamento 97 m²: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/07_MOU-DUB_GRA-MER_APT-PAV16-T01-T02-97M-LIVING_R02.- webp
 - Living apartamento 97 m²: https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/53_MOU-DUB_GRA-MER_APT-PAV16-T01-T02-97M-LIVING-CAM2_A_R01.webp
 
 # Vídeo promocional:
+
 - Versão desktop: /public/videos/desktop-infinity-recife-camila-coutinho.mp4
 - Versão mobile: /public/videos/mobile-infinity-recife-camila-coutinho.mp4
 
-# Camila Coutinho e o infinito
+# Camila _Coutinho_ e o infinito
 
 Há lugares que ultrapassam o tempo. Marcam gerações, definem estilos de vida, tornam-se símbolos de uma cidade.
 O Recife Palace Hotel foi um desses lugares: nos anos 80, não havia melhor endereço que traduzisse a ideia de sofisticação,
@@ -83,7 +86,7 @@ perfeita: um encontro entre memória e futuro, entre
 o luxo e o bem-estar, entre Recife, a cidade que me
 formou e me inspira, e o mundo.
 
-# Mais que um rosto
+# Mais que um _rosto_
 
 Existem nomes que não apenas acompanham
 tendências, mas as criam. Camila Coutinho é um
@@ -165,7 +168,7 @@ do que localização, é pertencimento.
 > encontra o mar, e a vida acontece com
 > leveza, beleza e identidade.
 
-# O infinito em retrofit
+# O infinito **em retrofit**
 
 Inaugurado em 1980 por Armando de Queiroz
 Monteiro Filho, o Recife Palace foi sinônimo de luxo e
@@ -191,7 +194,7 @@ e hospitalidade em uma experiência única.
 Infinity é mais que um projeto: é a transformação
 de uma lenda em legado.
 
-# Bem-estar é infinito
+# Bem-estar **é infinito**
 
 No passado, o Recife Palace foi sinônimo de conforto
 e bem-estar. Um lugar onde a hospitalidade acolhia o
@@ -205,7 +208,7 @@ entre corpo, mente e estética. Um convite diário a
 respirar fundo, desacelerar e transformar o morar em
 experiência.
 
-# Andar por andar
+# Andar _por_ **andar**
 
 Infinity Recife, cada andar revela uma
 nova forma de viver. Do térreo ao topo,
@@ -215,7 +218,7 @@ a diferentes estilos de vida, mantendo
 sempre o mesmo olhar para
 o conforto, o design e a sofisticação.
 
-# Viver o infinito
+# Viver o **infinito**
 
 Academia
 Piscinas
@@ -284,7 +287,7 @@ os dias.
 > de 26m2
 > que mostra
 > que o
-> luxo
+> _luxo_
 > está nos
 > detalhes
 > e na sofisticação
@@ -339,6 +342,8 @@ muitos só veem passado.
 
 # INFINITO EM PERSONALIZAÇÃO
 
+## Personalidade
+
 Comprar um apartamento novo é realização de um
 sonho, quando cada detalhe é planejado para
 oferecer conforto e identidade. Mas como imprimir a
@@ -357,7 +362,7 @@ Entregando um espaço adequado ao estilo de vida
 com praticidade, rapidez e economia, em unidades
 exclusivas que se encaixam no perfil de seus clientes.
 
-# SOLUÇÕEŞ SUSTENTAVEIS INCORPORADAS AO INFINITY RECIFE
+# **SOLUÇÕES SUSTENTÁVEIS** INCORPORADAS AO INFINITY RECIFE
 
 ## Sustentabilidade
 
@@ -386,9 +391,74 @@ exclusivas que se encaixam no perfil de seus clientes.
 - Criação de espaços ao ar livre com áreas de jardins.
 - Desenvolvimento de áreas que promovem atividades físicas e qualidade de vida.
 
+# Ficha técnica
+
+01 Torre
+329 unidades residenciais
+
+01 loja
+
+Lâmina com 12 apartamentos no 2º pavimento
+
+Lmina 20 apartamentos no 4º ao 18° pavimentos tipo
+
+Lâmina com 17 apartamentos no 19º pavimento
+
+## ÁREAS APARTAMENTOS
+
+### 2° PAVIMENTO:
+
+- INFINITY SOLO DE 32M2 A 49M2
+- INFINITY TWO DE 78M2 A 83M2
+
+### 4º AO 18º PAVIMENTOS:
+
+- INFINITY SOLO DE 26M2 A 42M2
+- INFINITY ONE COM 61M2
+- INFINITY TWO COM 76M2
+
+### 19º PAVIMENTO:
+
+- INFINITY SOLO COM 35M2
+- INFINITY ONE DE 43M2 A 62M2
+- INFINITY TWO DE 94M2 A 97M2
+
+### Loja
+
+475,56m2
+
+### ÁREA TERRENO
+
+2.528,75m2
+
+### ÁREA PRIVATIVA
+
+14.934,96m2
+
+### GARAGEM
+
+116 vagas, sendo 2 NEe 12 vagões"
+(9m de comprimento)
+
+### VAGAS ROTATIVAS
+
+## COMPLEMENTO:
+
+### EQUIPAMENTOS LAZER E UTILIDADES ÁREAS COMUNS
+
+**Semienterrado:** Garagem e bicicletário
+
+**Térreo:** Hall; Recepção; Delivery; Loja
+
+**1° Pavimento:** Garagem
+
+**2º Pavimento:** Lavanderia; Minimarket; Petwash
+
+**3º Pavimento:** Academia; Piscina com borda infinita e duas piscinas de hidromassagem no lazer e no Spa; Bar; Deck; Restaurante; Espaço Gourmet; Spa com sauna, salas de massagem e hidro aquecida.
+
 ## FACILIDADES
 
-- Irrigação inteligente;
-- Fechadura eletrônica nas portas sociais dos apartamentos;
-- 8 vagas com carregamento elétrico em sistema rotativo;
-- Áreas comuns mobiliadas, equipadas e automatizadas.
+Irrigação inteligente;
+Fechadura eletrônica nas portas sociais dos apartamentos;
+8 vagas com carregamento elétrico em sistema rotativo;
+Áreas comuns mobiliadas, equipadas e automatizadas.

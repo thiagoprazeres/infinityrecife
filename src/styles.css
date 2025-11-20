@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+html,
+body {
+  background-image: url('/bg.jpg') repeat;
+  background-color: #efeadb;
+  color: #292b2a;
+}
+
+@plugin "daisyui" {
+  themes: false;
+}
+
+@plugin "daisyui/theme" {
+  name: 'infinity';
+  default: true;
+  prefersdark: false;
+  color-scheme: 'light';
+  --color-base-100: #f7f4ec;
+  --color-base-200: #f2eddf;
+  --color-base-300: #eae3ce;
+  --color-base-content: #292b2a;
+  --color-primary: #efeadb;
+  --color-primary-content: #292b2a;
+  --color-secondary: #b92028;
+  --color-secondary-content: oklch(100% 0 0);
+  --color-accent: #00bfa6;
+  --color-accent-content: #ffffff;
+  --color-neutral: #1c1c1c;
+  --color-neutral-content: #ffffff;
+  --color-info: #3abff8;
+  --color-info-content: #ffffff;
+  --color-success: #36d399;
+  --color-success-content: #ffffff;
+  --color-warning: #fbbd23;
+  --color-warning-content: #ffffff;
+  --color-error: #f87272;
+  --color-error-content: #ffffff;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.28125rem;
+  --size-field: 0.28125rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 1;
+}
