@@ -1,1 +1,744 @@
-<h1>Infinity Recife</h1>
+<div class="min-h-screen flex flex-col g">
+  <header>
+    <nav class="navbar container mx-auto px-4">
+      <div class="flex-1 flex flex-col gap-1 py-2">
+        <h1>
+          <img src="logo-infinity-recife.png" alt="Infinity Recife" class="h-16 relative top-3" />
+        </h1>
+      </div>
+      <div class="flex-none hidden md:flex gap-3 items-center">
+        <p class="text-[0.7rem] text-base-content/70 leading-tight">
+          Atendimento exclusivo pelo WhatsApp
+          <span class="block font-semibold text-secondary"> (81) 9 9299-9282 </span>
+        </p>
+        <button type="button" class="btn btn-secondary btn-sm" (click)="openWhatsAppHero()">
+          Falar com um corretor
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-1">
+    <section id="topo">
+      <div class="container mx-auto px-4 pt-8 md:grid md:grid-cols-3 gap-5 pb-0">
+        <div class="col-span-2">
+          <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary text-left">
+            Camila Coutinho · Zirpoli Arquitetura · Wellness living
+          </p>
+          <h1 class="text-4xl md:text-5xl py-2 text-left">
+            <span class="uppercase font-semibold tracking-wider">O infinito do</span>
+            <em class="text-6xl md:text-7xl">Luxo</em><br /><span
+              class="font-base uppercase font-serif"
+              >inteligente em Boa Viagem</span
+            >
+          </h1>
+          <p class="text-sm md:text-base text-base-content/80 max-w-xl mt-1">
+            Apartamentos compactos de alto padrão, de 26m² a 97m², em um endereço histórico à
+            beira-mar. Um retrofit assinado por Humberto Zirpoli, com curadoria de
+            <span class="font-semibold">Camila Coutinho</span>, que transforma o antigo Recife
+            Palace em um novo ícone de sofisticação, bem-estar e hospitalidade.
+          </p>
+          <ul
+            class="text-xs md:text-sm text-base-content/80 grid grid-cols-2 gap-y-2 gap-x-4 max-w-xl py-4 list-disc ml-4"
+          >
+            <li>Av. Boa Viagem, frente mar</li>
+            <li>Studios e apartamentos de 26m² a 97m²</li>
+            <li>Piscina com borda infinita e Spa completo</li>
+            <li>Restaurante, bar e espaço gourmet</li>
+            <li>Academia, salas de massagem e wellness</li>
+            <li>Assinatura Moura Dubeux</li>
+          </ul>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4">
+          <div class="grid gap-4">
+            <div class="col-span-2 row-span-2">
+              <img
+                class="w-full rounded-lg h-72 object-cover"
+                src="https://zirpoliarquitetura.com.br/wp-content/uploads/2024/07/ANALICE-E-HUMBERTINHO.jpg"
+                alt="Humberto Zirpoli e Ana Lívia"
+              />
+            </div>
+            <div class="col-span-2 row-span-2">
+              <img
+                class="w-full rounded-lg h-24 object-cover"
+                src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/18_MOU-DUB_GRA-MER_SPA_R01.webp"
+                alt="SPA"
+              />
+            </div>
+          </div>
+          <div class="col-span-2">
+            <img
+              class="w-96 rounded-lg object-cover"
+              src="camila-coutinho.jpg"
+              alt="Camila Coutinho"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <img src="infinity-recife-18.jpg" alt="Infinity Recife lifestyle" class="w-full" />
+    <!-- Camila Coutinho & lifestyle -->
+    <section id="camila" class="bg-[#eee7d7] section-fade py-5">
+      <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+        <div class="space-y-4">
+          <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
+            Camila Coutinho & o infinito
+          </p>
+          <h2 class="text-2xl md:text-3xl font-semibold leading-snug">
+            Um ícone da moda assina o lifestyle do novo marco de Boa Viagem.
+          </h2>
+          <p class="text-sm md:text-base text-base-content/80">
+            Referência global de estilo, inovação e elegância contemporânea,
+            <span class="font-semibold">Camila Coutinho</span>
+            assina a curadoria de experiências do Infinity Recife. Do lobby às áreas de lazer, cada
+            detalhe traduz um luxo cosmopolita, sofisticado e, ao mesmo tempo, atemporal.
+          </p>
+          <p class="text-sm md:text-base text-base-content/80">
+            O antigo Recife Palace, palco da vida social da cidade nos anos 80, renasce
+            reinterpretado sob a lente de Camila: um projeto que une memória e futuro, moradia e
+            hospitalidade, cidade e mundo.
+          </p>
+          <blockquote
+            class="border-l-2 border-secondary/70 pl-4 text-sm md:text-base italic text-base-content/90"
+          >
+            “O Infinity Recife é mais do que um lugar para viver, é uma maneira de viver. Elegância
+            com autenticidade, bem-estar com propósito e beleza com alma.”
+          </blockquote>
+
+          <h3 class="text-sm font-semibold tracking-[0.18em] uppercase">
+            Mais que um rosto: curadoria
+          </h3>
+          <p class="text-sm text-primary-content/80">
+            Camila traz ao Infinity referências dos hotéis mais desejados do mundo, aliadas à sua
+            leitura única de sofisticação. O resultado é um empreendimento que conecta Recife ao
+            mapa global do luxo, sem perder as raízes recifenses que a formaram.
+          </p>
+          <ul class="text-sm text-primary-content/80 space-y-1.5 list-disc list-inside">
+            <li>Experiências pensadas para morar, viver e receber.</li>
+            <li>Ambientes instagramáveis, contemporâneos e cheios de personalidade.</li>
+            <li>
+              Um novo padrão de moradia compacta, com foco em conforto, estética e conveniência.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img src="camila-coutinho-e-o-infinito.jpg" alt="Camila Coutinho e o infinito" />
+        </div>
+      </div>
+    </section>
+    <!-- Arquitetura & retrofit -->
+    <img
+      src="https://zirpoliarquitetura.com.br/wp-content/uploads/2024/07/ZIRPOLI.jpg"
+      alt="Arquitetura e retrofit do Infinity Recife"
+      class="w-full h-96 object-cover"
+    />
+    <section id="arquitetura" class="py-14 md:py-16 section-fade">
+      <div class="container mx-auto px-4 grid lg:grid-cols-[1.1fr,0.9fr] gap-10">
+        <div class="space-y-4">
+          <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
+            Zirpoli Arquitetura
+          </p>
+          <h2
+            class="text-2xl md:text-3xl font-extralight uppercase leading-snug font-serif tracking-wide"
+          >
+            Um retrofit que transforma uma lenda em legado.
+          </h2>
+          <p class="text-sm md:text-base text-primary-content/80">
+            Assinado por <span class="font-semibold">Humberto Zirpoli</span>, referência em
+            arquitetura de luxo no Nordeste, o Infinity Recife combina estética refinada, tecnologia
+            e alto padrão de conforto. O projeto preserva a memória afetiva do antigo Recife Palace
+            enquanto reinventa cada ambiente para o modo de viver atual.
+          </p>
+          <p class="text-sm md:text-base text-primary-content/80">
+            Inspirado nos melhores hotéis do mundo, o empreendimento nasce do encontro entre
+            tendências globais e propósito: oferecer uma moradia que se comporta como um hotel de
+            alto padrão, com serviços, lazer e experiências de bem-estar permanentes.
+          </p>
+        </div>
+      </div>
+    </section>
+    <img
+      class="w-full h-96 object-cover"
+      src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/18_MOU-DUB_GRA-MER_SPA_R01.webp"
+      alt="SPA"
+    />
+    <!-- Bem-estar & wellness -->
+    <section id="wellness" class="py-14 md:py-16 px-4 section-fade">
+      <div class="container mx-auto grid md:grid-cols-2 gap-10">
+        <div class="space-y-4">
+          <img src="bem-estar-e-infinito.png" alt="Lazer no Infinity Recife" class="w-full" />
+        </div>
+        <div class="space-y-4">
+          <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
+            Bem-estar é infinito
+          </p>
+          <h2 class="text-2xl md:text-3xl font-semibold leading-snug uppercase italic">
+            Wellness de hotel cinco estrelas,
+            <span class="font-extralight">todos os dias em casa.</span>
+          </h2>
+          <p class="text-sm md:text-base text-base-content/80">
+            No passado, o Recife Palace foi sinônimo de conforto e bem-estar. No Infinity Recife,
+            essa essência evolui para o conceito de <span class="font-semibold">wellness</span>: um
+            cuidado permanente com corpo, mente e estética, presente em todos os espaços do
+            empreendimento.
+          </p>
+          <p class="text-sm md:text-base text-base-content/80">
+            Spas, piscinas, salas de massagem, academia e áreas de relaxamento convivem com a alta
+            gastronomia e ambientes de convivência sofisticados. Um convite diário para desacelerar
+            e transformar o morar em experiência.
+          </p>
+
+          <div class="grid grid-cols-3 gap-3 text-xs">
+            <div>
+              <h3 class="font-semibold text-sm mb-1">Lazer contemplativo</h3>
+              <ul class="space-y-0.5 text-base-content/80 list-disc ml-3 text-left">
+                <li>Piscina com deck solarium</li>
+                <li>Hidromassagem e spa aquecido</li>
+                <li>Terraço descoberto com vista para o mar</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="font-semibold text-sm mb-1">Saúde & movimento</h3>
+              <ul class="space-y-0.5 text-base-content/80 list-disc ml-3 text-left">
+                <li>Academia equipada</li>
+                <li>Sala fitness e wellness</li>
+                <li>Espaços ao ar livre com jardins</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-semibold text-sm mb-1">Serviços que simplificam</h3>
+              <ul class="space-y-0.5 text-base-content/80 list-disc ml-3 text-left">
+                <li>Lavanderia compartilhada</li>
+                <li>Minimarket 24h</li>
+                <li>Pet wash para cuidados com seu pet</li>
+                <li>Áreas comuns automatizadas e equipadas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plantas & metragens -->
+    <section id="plantas" class="md:py-14 md:py-16 section-fade">
+      <div class="container mx-auto px-4 space-y-8">
+        <div class="md:grid md:grid-cols-2 md:gap-10">
+          <div>
+            <div class="space-y-4">
+              <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
+                Morar no infinito
+              </p>
+              <h2
+                class="text-2xl md:text-3xl font-semibold leading-snug font-serif uppercase tracking-wide"
+              >
+                Plantas inteligentes de 26m² a 97m²,
+                <span class="font-extralight">para morar ou investir.</span>
+              </h2>
+              <p class="text-sm md:text-base text-base-content/80">
+                Cada planta do Infinity Recife foi pensada para traduzir uma nova forma de morar:
+                mais funcional, conectada e alinhada à economia do turismo. Apartamentos compactos
+                que aproveitam cada metro quadrado com elegância, propósito e versatilidade.
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-4 text-[0.8rem] text-left mt-5">
+              <div>
+                <h3 class="font-semibold mb-1">Infinity Solo</h3>
+                <p class="text-base-content/70 mb-2">
+                  Studios funcionais, perfeitos para morar sozinho, para segunda moradia ou
+                  investimento em locação por temporada.
+                </p>
+                <ul class="space-y-0.5 text-base-content/80 list-disc ml-3">
+                  <li>2º pavimento: 32m² a 49m²</li>
+                  <li>4º ao 18º: 26m² a 42m²</li>
+                  <li>19º pavimento: 35m²</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-1">Infinity One</h3>
+                <p class="text-base-content/70 mb-2">
+                  Apartamentos de 1 suíte, ideais para quem busca mais conforto sem abrir mão da
+                  praticidade.
+                </p>
+                <ul class="space-y-0.5 text-base-content/80 list-disc ml-3">
+                  <li>4º ao 18º pavimento: 61m²</li>
+                  <li>19º pavimento: 43m² a 62m²</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-1">Infinity Two</h3>
+                <p class="text-base-content/70 mb-2">
+                  Unidades amplas, com duas suítes, para famílias ou para quem deseja mais espaço
+                  com vista para o mar.
+                </p>
+                <ul class="space-y-0.5 text-base-content/80 list-disc ml-3">
+                  <li>2º pavimento: 78m² a 83m²</li>
+                  <li>4º ao 18º pavimento: 76m²</li>
+                  <li>19º pavimento: 94m² a 97m²</li>
+                </ul>
+              </div>
+            </div>
+
+            <p class="text-sm text-base-content/80 flex-1 pt-5 pb-2 font-medium">
+              Quer receber as plantas em alta resolução e simulações de decoração para cada
+              metragem? Envie uma mensagem no WhatsApp e receba o material completo com um corretor
+              especialista.
+            </p>
+            <button
+              type="button"
+              class="btn btn-secondary btn-sm w-full md:w-auto"
+              (click)="openWhatsAppHero()"
+            >
+              Receber plantas no WhatsApp
+            </button>
+          </div>
+          <div>
+            <div class="carousel rounded-box w-full mt-5 md:mt-0">
+              <div id="item1" class="carousel-item">
+                <img
+                  src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/01_MOU-DUB_GRA-MER_APT-TIPO-T01-75M-LIVING_R03.webp"
+                  alt="Living apartamento 75 m²"
+                  class="w-full h-128"
+                />
+              </div>
+              <div id="item2" class="carousel-item">
+                <img
+                  src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/03_MOU-DUB_GRA-MER_APT-TIPO-T13-41M-T17-36M-LIVING_R04.webp"
+                  alt="Living apartamento 43 m²"
+                  class="w-full h-128"
+                />
+              </div>
+              <div id="item3" class="carousel-item">
+                <img
+                  src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/04_MOU-DUB_GRA-MER_APT-TIPO-T03-27M-LIVING_R02.webp"
+                  alt="Living apartamento 27 m²"
+                  class="w-full h-128"
+                />
+              </div>
+              <div id="item4" class="carousel-item">
+                <img
+                  src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/07_MOU-DUB_GRA-MER_APT-PAV16-T01-T02-97M-LIVING_R02.webp"
+                  alt="Living apartamento 97 m²"
+                  class="w-full h-128"
+                />
+              </div>
+              <div id="item5" class="carousel-item">
+                <img
+                  src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/53_MOU-DUB_GRA-MER_APT-PAV16-T01-T02-97M-LIVING-CAM2_A_R01.webp"
+                  alt="Living apartamento 97 m²"
+                  class="w-full h-128"
+                />
+              </div>
+            </div>
+            <div class="flex w-full justify-center gap-2 py-2">
+              <a href="#item1" class="btn btn-xs">1</a>
+              <a href="#item2" class="btn btn-xs">2</a>
+              <a href="#item3" class="btn btn-xs">3</a>
+              <a href="#item4" class="btn btn-xs">4</a>
+              <a href="#item5" class="btn btn-xs">5</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria de fotos -->
+    <section id="galeria" class="py-14 md:py-16 border-t border-base-300 bg-white/30 section-fade">
+      <div class="max-w-6xl mx-auto px-4 space-y-8">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div class="space-y-3 max-w-2xl">
+            <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
+              Galeria
+            </p>
+            <h2 class="text-2xl md:text-3xl font-semibold leading-snug">
+              Fachada, áreas comuns e interiores que traduzem o luxo contemporâneo.
+            </h2>
+            <p class="text-sm md:text-base text-base-content/80">
+              Inspire-se com alguns ambientes do Infinity Recife: da fachada monumental à piscina de
+              borda infinita, passando por halls, spa, academia e livings dos apartamentos.
+            </p>
+          </div>
+          <button
+            type="button"
+            class="btn btn-outline btn-secondary btn-sm w-full md:w-auto"
+            (click)="openWhatsAppHero()"
+          >
+            Receber mais fotos no WhatsApp
+          </button>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <figure class="card card-compact bg-base-100 shadow-md">
+            <img
+              src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/25_MOU-DUB_GRA-MER_FACHADA-CAM2_R02.webp"
+              alt="Fachada principal do Infinity Recife"
+              class="h-52 w-full object-cover"
+              loading="lazy"
+            />
+            <figcaption class="px-4 py-3 text-[0.8rem]">
+              <p class="font-semibold">Fachada principal</p>
+              <p class="text-base-content/70">Um novo marco arquitetônico na Avenida Boa Viagem.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="card card-compact bg-base-100 shadow-md">
+            <img
+              src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/23_MOU-DUB_GRA-MER_DECK-E-BAR_R02.webp"
+              alt="Piscina com deck e bar do Infinity Recife"
+              class="h-52 w-full object-cover"
+              loading="lazy"
+            />
+            <figcaption class="px-4 py-3 text-[0.8rem]">
+              <p class="font-semibold">Piscina & deck</p>
+              <p class="text-base-content/70">
+                Borda infinita, bar e vista para o mar em um único cenário.
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="card card-compact bg-base-100 shadow-md">
+            <img
+              src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/18_MOU-DUB_GRA-MER_SPA_R01.webp"
+              alt="Spa do Infinity Recife"
+              class="h-52 w-full object-cover"
+              loading="lazy"
+            />
+            <figcaption class="px-4 py-3 text-[0.8rem]">
+              <p class="font-semibold">Spa & wellness</p>
+              <p class="text-base-content/70">
+                Salas de massagem, sauna e hidro para cuidar do corpo e da mente.
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="card card-compact bg-base-100 shadow-md">
+            <img
+              src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/17_MOU-DUB_GRA-MER_ACADEMIA_R02.webp"
+              alt="Academia do Infinity Recife"
+              class="h-52 w-full object-cover"
+              loading="lazy"
+            />
+            <figcaption class="px-4 py-3 text-[0.8rem]">
+              <p class="font-semibold">Academia completa</p>
+              <p class="text-base-content/70">
+                Equipamentos de alto padrão com vista para a cidade.
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="card card-compact bg-base-100 shadow-md">
+            <img
+              src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/20_MOU-DUB_GRA-MER_RESTAURANTE_R01.webp"
+              alt="Restaurante do Infinity Recife"
+              class="h-52 w-full object-cover"
+              loading="lazy"
+            />
+            <figcaption class="px-4 py-3 text-[0.8rem]">
+              <p class="font-semibold">Restaurante & bar</p>
+              <p class="text-base-content/70">
+                Alta gastronomia em um ambiente elegante e acolhedor.
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="card card-compact bg-base-100 shadow-md">
+            <img
+              src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/01_MOU-DUB_GRA-MER_APT-TIPO-T01-75M-LIVING_R03.webp"
+              alt="Living de apartamento do Infinity Recife"
+              class="h-52 w-full object-cover"
+              loading="lazy"
+            />
+            <figcaption class="px-4 py-3 text-[0.8rem]">
+              <p class="font-semibold">Living dos apartamentos</p>
+              <p class="text-base-content/70">
+                Ambientes amplos, luminosos e integrados ao lifestyle da Boa Viagem.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vídeo Camila Coutinho -->
+    <section id="video" class="py-14 md:py-16 border-t border-base-200 bg-base-200/40 section-fade">
+      <div class="max-w-6xl mx-auto px-4 space-y-8">
+        <div class="max-w-3xl space-y-3">
+          <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
+            Vídeo
+          </p>
+          <h2 class="text-2xl md:text-3xl font-semibold leading-snug">
+            Camila Coutinho apresenta o Infinity Recife.
+          </h2>
+          <p class="text-sm md:text-base text-base-content/80">
+            Assista ao filme oficial do empreendimento e descubra como o antigo Recife Palace se
+            transforma em um novo capítulo de luxo e bem-estar na Avenida Boa Viagem.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <div class="hidden md:block rounded-box overflow-hidden shadow-2xl">
+            <video class="w-full h-full" controls>
+              <source src="/videos/desktop-infinity-recife-camila-coutinho.mp4" type="video/mp4" />
+              Seu navegador não suporta vídeo HTML5.
+            </video>
+          </div>
+
+          <div class="md:hidden rounded-box overflow-hidden shadow-2xl">
+            <video class="w-full h-full" controls>
+              <source src="/videos/mobile-infinity-recife-camila-coutinho.mp4" type="video/mp4" />
+              Seu navegador não suporta vídeo HTML5.
+            </video>
+          </div>
+
+          <div class="flex flex-col md:flex-row md:items-center gap-4">
+            <p class="text-sm text-base-content/80 flex-1">
+              Quer receber o link do vídeo, book digital e materiais complementares diretamente no
+              seu WhatsApp? Nosso time envia tudo para você em poucos minutos.
+            </p>
+            <button
+              type="button"
+              class="btn btn-secondary btn-sm w-full md:w-auto"
+              (click)="openWhatsAppHero()"
+            >
+              Receber materiais no WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <img
+      src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_09_24/23_MOU-DUB_GRA-MER_DECK-E-BAR_R02.webp"
+      alt="Sustentabilidade Infinity Recife"
+      class="w-full h-72 object-cover"
+    />
+    <!-- Sustentabilidade & coleção Infinity -->
+    <section id="sustentabilidade" class="py-14 md:py-16 px-4 section-fade">
+      <div class="container mx-auto">
+        <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
+          Soluções sustentáveis
+        </p>
+        <h2 class="text-2xl md:text-3xl font-semibold leading-snug">
+          Um projeto que olha para o futuro, sem esquecer o passado.
+        </h2>
+        <p class="text-sm md:text-base text-base-content/80">
+          O Infinity Recife incorpora soluções sustentáveis que promovem qualidade urbana, economia
+          de recursos, boa gestão de resíduos e promoção de saúde e bem-estar.
+        </p>
+        <div class="grid sm:grid-cols-4 gap-10 text-sm mt-10 text-left">
+          <div>
+            <h3 class="font-semibold mb-1">Qualidade urbana</h3>
+            <ul class="space-y-0.5 text-base-content/80">
+              <li>Integração do empreendimento com o entorno e melhoria da paisagem urbana.</li>
+              <li>Criação de novos jardins acessíveis à cidade.</li>
+              <li>Acesso através de porte-cochère, com mais segurança e conforto.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-1">Água & energia</h3>
+            <ul class="space-y-0.5 text-base-content/80">
+              <li>Dispositivos de redução de vazão em torneiras e vasos sanitários.</li>
+              <li>Irrigação automatizada dos jardins comuns.</li>
+              <li>Iluminação automatizada e/ou com sensores em áreas comuns.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-1">Materiais & resíduos</h3>
+            <ul class="space-y-0.5 text-base-content/80">
+              <li>Personalização de acabamentos ainda na obra, reduzindo reformas futuras.</li>
+              <li>Gestão eficiente de resíduos e descarte responsável.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-1">Saúde & bem-estar</h3>
+            <ul class="space-y-0.5 text-base-content/80">
+              <li>Espaços ao ar livre com áreas de jardins.</li>
+              <li>Ambientes que estimulam atividades físicas e qualidade de vida.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="md:grid md:grid-cols-4 md:gap-10 text-sm mt-10 text-left text-base-content/80">
+            <div>
+              <h1 class="font-semibold mb-1 text-3xl"><em>Ficha do projeto</em></h1>
+              <p class="my-4">
+                <img
+                  src="logo-predio-infinity-recife-transparent.webp"
+                  alt="Logo do prédio Infinity Recife"
+                  class="w-32 h-auto object-contain"
+                />
+              </p>
+              <ul class="space-y-0.5 list-disc ml-3">
+                <li>01 torre residencial</li>
+                <li>329 unidades + 01 loja</li>
+                <li>Terreno de 2.528,75m²</li>
+                <li>Área privativa: 14.934,96m²</li>
+                <li>116 vagas de garagem*</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="font-semibold mb-1">Lazer & utilidades</h3>
+              <ul class="space-y-0.5 list-disc ml-3">
+                <li>Piscina com borda infinita</li>
+                <li>Spa com sauna e salas de massagem</li>
+                <li>Academia completa e sala fitness</li>
+                <li>Restaurante, bar e espaço gourmet</li>
+                <li>Lavanderia, minimarket e pet wash</li>
+              </ul>
+            </div>
+            <div class="col-span-2 mt-4 md:mt-0">
+              <img
+                src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/27_MOU-DUB_GRA-MER_FACHADA_CAM4_R03.webp"
+                alt="Piscina com borda infinita"
+                class="w-full h-72 object-cover"
+              />
+            </div>
+          </div>
+
+          <p class="text-[0.7rem] text-base-content/60">
+            *Vagas, áreas e detalhes estão sujeitos à conferência na documentação oficial do
+            empreendimento fornecida pela Moura Dubeux.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="md:pt-8">
+      <div class="md:grid md:grid-cols-2 items-center">
+        <img
+          src="https://moura-dubeux-cdn-prod.loomi.com.br/media/files/empreendimentomidiarelacionada/25_10_28/25_MOU-DUB_GRA-MER_FACHADA-CAM2_R02.webp"
+          alt="Fachada"
+          class="w-full"
+        />
+        <form
+          class="p-4 md:p-5 space-y-3 text-left max-w-md mx-auto"
+          (submit)="onLeadSubmit($event)"
+        >
+          <div class="space-y-1">
+            <p><img src="logo-infinity-recife.png" alt="Infinity Recife" class="h-16 relative" /></p>
+            <h2 class="text-base font-semibold">Fale com um corretor agora no WhatsApp</h2>
+            <p class="text-[0.75rem] text-base-content/70">
+              Envie seus dados e receba, pelo WhatsApp, plantas, tipologias disponíveis e condições
+              especiais de lançamento.
+            </p>
+          </div>
+
+          <label class="form-control w-full">
+            <span class="label-text text-[0.7rem] font-medium uppercase tracking-[0.16em]">
+              Nome
+            </span>
+            <input
+              name="name"
+              type="text"
+              class="input input-bordered input-sm md:input-md w-full"
+              placeholder="Como devemos te chamar?"
+            />
+          </label>
+
+          <label class="form-control w-full">
+            <span class="label-text text-[0.7rem] font-medium uppercase tracking-[0.16em]">
+              Telefone
+            </span>
+            <input
+              name="phone"
+              type="tel"
+              class="input input-bordered input-sm md:input-md w-full"
+              placeholder="(81) 9 9999-9999"
+            />
+          </label>
+
+          <label class="form-control w-full">
+            <span class="label-text text-[0.7rem] font-medium uppercase tracking-[0.16em]">
+              Tipologia de interesse
+            </span>
+            <select
+              name="unitType"
+              class="select select-bordered select-sm md:select-md w-full text-[0.8rem]"
+            >
+              <option value="" selected>Selecione</option>
+              <option value="Infinity Solo 26m² a 42m²">Infinity Solo · 26m² a 42m²</option>
+              <option value="Infinity Solo 32m² a 49m²">Infinity Solo · 32m² a 49m²</option>
+              <option value="Infinity One 43m² a 62m²">Infinity One · 43m² a 62m²</option>
+              <option value="Infinity Two 76m² a 97m²">Infinity Two · 76m² a 97m²</option>
+              <option value="Investimento / locação por temporada">
+                Investimento / locação por temporada
+              </option>
+            </select>
+          </label>
+
+          <label class="form-control">
+            <span class="label-text text-[0.7rem] font-medium uppercase tracking-[0.16em]">
+              Conte rapidamente o que você procura
+            </span>
+            <textarea
+              name="message"
+              rows="2"
+              class="textarea textarea-bordered textarea-sm md:textarea-md resize-none w-full"
+              placeholder="Ex.: unidade frente mar, para morar ou investir, faixa de valor..."
+            ></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-secondary w-full gap-2 mt-2">
+            <span>Chamar no WhatsApp</span>
+            <span class="text-[0.75rem] font-semibold"> (81) 9 9299-9282 </span>
+          </button>
+
+          <p class="text-[0.7rem] text-base-content/60 leading-relaxed mt-1">
+            Ao enviar, abriremos uma conversa com nosso time de vendas direto no WhatsApp. Nenhum
+            dado é armazenado no site.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Botão flutuante WhatsApp -->
+  <button
+    type="button"
+    class="btn btn-secondary btn-circle fixed bottom-4 right-4 shadow-lg shadow-secondary/40 md:bottom-6 md:right-6"
+    aria-label="Falar com corretor no WhatsApp"
+    (click)="openWhatsAppQuick()"
+  >
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5">
+      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+      <g id="SVGRepo_iconCarrier">
+        <path
+          d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
+          fill="#ffffff"
+        ></path>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
+          fill="#ffffff"
+        ></path>
+      </g>
+    </svg>
+  </button>
+
+  <footer class="border-t border-base-200 bg-base-100/95 text-[0.7rem] text-base-content/70">
+    <div
+      class="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row gap-3 md:items-center md:justify-between"
+    >
+      <div>
+        <p class="font-semibold text-xs tracking-[0.18em] uppercase">
+          Infinity Recife · Moura Dubeux
+        </p>
+        <p>Av. Boa Viagem · Terreno do antigo Hotel Gran Mercure</p>
+      </div>
+      <div class="space-y-1">
+        <p>
+          Imagens meramente ilustrativas. Consulte o memorial descritivo e a documentação oficial do
+          empreendimento.
+        </p>
+        <p>
+          Atendimento comercial exclusivo via WhatsApp pelo número
+          <span class="font-semibold">(81) 9 9299-9282</span>.
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
