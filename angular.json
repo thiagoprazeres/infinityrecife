@@ -48,7 +48,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "_redirects"
             ],
             "styles": [
               "src/styles.css"
