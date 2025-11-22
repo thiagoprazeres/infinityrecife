@@ -85,7 +85,6 @@ export class App implements AfterViewInit {
     if (customMessage) {
       pieces.push(`O que procuro: ${customMessage}`);
     }
-    pieces.push('Encontrei o empreendimento na landing page Infinity Recife.');
 
     const message = pieces.join('\n');
     this.openWhatsAppWithMessage(message);
