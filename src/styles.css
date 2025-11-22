@@ -2,6 +2,11 @@
 @import 'tailwindcss';
 
 @layer base {
+  h1,
+  h2,
+  h3 {
+    text-align: left;
+  }
   h1 em {
     font-family: 'Pinyon Script', cursive;
     font-style: normal;

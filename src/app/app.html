@@ -19,7 +19,7 @@
   </header>
 
   <main class="flex-1">
-    <section id="topo">
+    <section id="topo" class="hero-stagger">
       <div class="container mx-auto px-4 pt-8 md:grid md:grid-cols-3 gap-5 pb-0">
         <div class="col-span-2">
           <p
@@ -137,8 +137,8 @@
       class="w-full h-56 md:h-96 object-cover"
     />
     <section id="arquitetura" class="py-5 md:py-16 section-fade">
-      <div class="container mx-auto px-4 grid lg:grid-cols-[1.1fr,0.9fr] gap-10">
-        <div class="space-y-4">
+      <div class="container mx-auto px-4 lg:grid lg:grid-cols-3 gap-10">
+        <div class="space-y-4 col-span-2">
           <p class="text-[0.7rem] tracking-[0.22em] uppercase font-semibold text-secondary">
             Zirpoli Arquitetura
           </p>
@@ -159,6 +159,15 @@
             alto padrão, com serviços, lazer e experiências de bem-estar permanentes.
           </p>
         </div>
+        <figure class="diff aspect-4/5 mt-5 md:mt-0" tabindex="0">
+          <div class="diff-item-1" role="img" tabindex="0">
+            <img alt="daisy" src="recife-palace-hotel.webp" />
+          </div>
+          <div class="diff-item-2" role="img">
+            <img alt="daisy" src="infinity-recife-retrofit.webp" />
+          </div>
+          <div class="diff-resizer"></div>
+        </figure>
       </div>
     </section>
     <img
@@ -482,10 +491,7 @@
 
         <div class="space-y-4">
           <div class="hidden md:block rounded-box overflow-hidden shadow-2xl">
-            <video
-              class="w-full h-full"
-              controls
-            >
+            <video class="w-full h-full" controls>
               <source src="/videos/desktop-infinity-recife-camila-coutinho.mp4" type="video/mp4" />
               O Infinity Recife marca um novo tempo para um lugar eterno. O empreendimento surge em
               um dos endereços mais desejados da cidade para repensar o jeito de se viver na Avenida
